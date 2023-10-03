@@ -2,6 +2,8 @@ package com.yuapicommen.service;
 
 import com.yuapicommen.model.entity.InterfaceInfo;
 
+import java.util.Map;
+
 /**
  * @author leikooo
  * @create 2023-10-01 20:52
@@ -15,7 +17,13 @@ public interface InnerInterfaceInfoService {
      *
      * @param path 路径
      * @param method 请求方法
+     * @param host ip + 端口
      * @return interfaceInfo 对象
      */
-    InterfaceInfo getInterfaceInfo(String path, String method);
+    InterfaceInfo getInterfaceInfo(String path, String host , String method);
+
+    /**
+     * 查询 host
+     */
+    Map<String, String> getHosts();
 }

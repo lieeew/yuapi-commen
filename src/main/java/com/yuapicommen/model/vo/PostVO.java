@@ -2,10 +2,9 @@ package com.yuapicommen.model.vo;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.yupi.yuapi.model.entity.Post;
+import com.yuapicommen.model.entity.Post;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
-
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;

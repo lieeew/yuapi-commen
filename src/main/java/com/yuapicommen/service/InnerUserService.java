@@ -14,9 +14,8 @@ public interface InnerUserService {
     /**
      * 通过 accessKey secretKey 获取用户信息
      *
-     * @param secretKey secretKey
      * @param accessKey accessKey
      * @return
      */
-    User getInvokeUser(String accessKey, String secretKey);
+    User getInvokeUser(String accessKey);
 }
